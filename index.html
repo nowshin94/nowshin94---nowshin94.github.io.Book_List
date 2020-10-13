@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Book List</title>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <h3 id="head3">Add Book To Your Book List</h3>
+      <hr />
+      <form id="book-form">
+        <div>
+          <label for="title">TITLE</label>
+          <input class="u-full-width" type="text" name="" id="title" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="author">AUTHOR</label>
+          <input class="u-full-width" type="text" name="" id="author" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="isbn">ISBN</label>
+          <input class="u-full-width" type="text" name="" id="isbn" />
+          <br /><br /><br />
+        </div>
+        <div>
+          <input id="like" class="u-full-width" type="submit" value="Submit" />
+        </div>
+      </form>
+      <table class="u-full-width table table-striped table-info">
+        <thead class="thead-dark">
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+      </table>
+    </div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.success,
+.error,
+.remove {
+  color: black;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background-color: green;
+}
+.error {
+  background-color: red;
+}
+.remove {
+  background-color: burlywood;
+}
+
+#head3 {
+  text-align: center;
+  color: seagreen;
+  font-size: 24px;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+#like {
+  background-color: rgb(157, 217, 219);
+  border: cadetblue solid 4px;
+  border-radius: 12px;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 38px;
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  font-size: 16px;
+}
