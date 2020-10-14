@@ -17,9 +17,11 @@
 }
 
 #head3 {
+  margin-top: 45px;
+  margin-left: 35px;
   text-align: center;
   color: seagreen;
-  font-size: 24px;
+  font-size: 34px;
   font-family: 'Sansita Swashed', cursive;
 }
 
@@ -36,4 +38,8 @@
 body {
   font-family: 'Slabo 27px', serif;
   font-size: 16px;
+}
+
+.col-sm-3 {
+  text-align: center;
 }
